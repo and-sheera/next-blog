@@ -1,0 +1,26 @@
+@import '@/globalStyles/variables';
+
+.article-card {
+  display: block;
+  padding: 40px 40px 50px;
+  background: $white;
+  border-radius: 20px;
+  color: inherit;
+  &:hover {
+    box-shadow: 4px 8px 35px 0 rgb(8 24 111 / 0.1);
+  }
+  &__article-info {
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-weight: 450;
+    font-size: 24px;
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  &__desc {
+    font-size: 18px;
+    color: $black40;
+  }
+}

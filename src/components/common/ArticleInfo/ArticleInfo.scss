@@ -1,0 +1,19 @@
+@import '@/globalStyles/variables';
+
+.article-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  &__category {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: $blue;
+    background: $blue20;
+    border-radius: 8px;
+  }
+  &__date {
+    font-size: 16px;
+    color: $black40;
+  }
+}

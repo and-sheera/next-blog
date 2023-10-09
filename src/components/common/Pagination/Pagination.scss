@@ -1,0 +1,18 @@
+@import '@/globalStyles/variables';
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  &__link {
+    color: inherit;
+    &:hover {
+      color: $blue;
+    }
+    &--active {
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+}

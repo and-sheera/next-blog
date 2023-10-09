@@ -1,0 +1,37 @@
+@import '@/globalStyles/variables';
+
+.article {
+  &__cover {
+    position: relative;
+    height: 300px;
+    margin-bottom: 40px;
+    img {
+      border-radius: 20px;
+      object-fit: cover;
+    }
+  }
+  &__article-info {
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-weight: 450;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  &__content {
+    font-size: 18px;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+    p {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  &__nav {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+}

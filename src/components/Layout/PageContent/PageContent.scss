@@ -1,0 +1,12 @@
+@import '@/globalStyles/variables';
+
+.page-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 40px;
+  align-items: start;
+  padding: 40px 0 100px;
+  &--single {
+    grid-template-columns: 1fr;
+  }
+}
